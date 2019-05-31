@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p id="demo"></p>
+
+  <script>
+
+  let ms1 = new MySet();
+  ms1.add(4);
+  ms1.add(4);
+  ms1.add(5);
+  ms1.add(6);
+  ms1.remove(5);
+  console.log(ms1.toArray());
+
+  let ms2 = new MySet ([1,2,1,3]);
+  console.log(ms2.toArray());
+  console.log(ms2.has(3));
+  console.log(ms2.size());
+
+  // Constructor function for Person objects
+  class MySet {
+    constructor(add, remove, size, has){
+      if(add != ''){
+        this._myAdd = add;
+      } else
+      isEqual(other_MySet) {
+        return this._myAdd === other_MySet._myAdd;
+      }
+      if(remove != ''){
+        this._myRemove = remove;
+      } else
+      toArray(other_MySet) {
+        return this._myRemove === other_MySet._myRemove;
+      }
+      if(size != ''){
+        this._mySize = size;
+      } else
+      forEach(callback_MySet) {
+        return this._mySize === other_MySet._mySize;
+      }
+      if(has != ''){
+        this._myHas = has;
+      } else
+      clone(MySet) {
+        return this._myHas === other_MySet._myHas;
+      }
+
+</script>
+
+</body>
+</html>
